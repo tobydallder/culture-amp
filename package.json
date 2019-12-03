@@ -1,0 +1,17 @@
+{
+  "name": "culture-amp",
+  "private": true,
+  "dependencies": {
+    "domready": "^1.0.8",
+    "viewloader": "^2.0.0"
+  },
+  "devDependencies": {
+    "icelab-assets": "^2.0.8"
+  },
+  "scripts": {
+    "start": "icelab-assets start --source-path=source",
+    "build": "icelab-assets build --source-path=source --build-path=.tmp/dist/assets",
+    "test": "icelab-assets test",
+    "create-entry": "icelab-assets create-entry"
+  }
+}

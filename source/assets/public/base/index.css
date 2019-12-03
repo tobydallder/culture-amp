@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-grey);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a,
+button {
+  transition: color 150ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+a:focus {
+  outline: 1px currentColor dotted;
+}
+
+button:hover,
+a:hover,
+button:active,
+a:active {
+  outline: none;
+}

@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="canvas-wrapper">
+
+    <div class="canvas">
+      <%-
+        toggle_config = {
+          "event": "click",
+          "targetSelector": ".toggle",
+          "targetToggleClassName": "toggle--open"
+        }
+      %>
+      <button class="button" data-view-toggle-class='<%= JSON.generate(toggle_config) %>'>
+        Btn
+      </button>
+      <span class="toggle">Toggle</span>
+    </div>
+
+    <!-- <%= link_to 'Hello', '/', :class => "" %> -->
+
+  </div>
+</div>
